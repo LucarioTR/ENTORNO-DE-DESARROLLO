@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex Simple</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+
+        h1 {
+            color: #ff0000;
+            margin-top: 20px;
+        }
+
+        .pokedex {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        .pokemon-card {
+            background-color: white;
+            border: 2px solid #333;
+            border-radius: 10px;
+            width: 180px;
+            margin: 10px;
+            padding: 10px;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+            transition: transform 0.2s;
+        }
+
+        .pokemon-card:hover {
+            transform: scale(1.05);
+        }
+
+        .pokemon-card img {
+            width: 120px;
+            height: 120px;
+        }
+
+        .pokemon-name {
+            font-weight: bold;
+            font-size: 18px;
+            margin: 10px 0 5px 0;
+        }
+
+        .pokemon-type {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Pokédex Simple</h1>
+
+    <div class="pokedex">
+        <!-- Bulbasaur -->
+        <div class="pokemon-card">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="Bulbasaur">
+            <div class="pokemon-name">Bulbasaur</div>
+            <div class="pokemon-type">Tipo: Planta/Veneno</div>
+        </div>
+
+        <!-- Charmander -->
+        <div class="pokemon-card">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png" alt="Charmander">
+            <div class="pokemon-name">Charmander</div>
+            <div class="pokemon-type">Tipo: Fuego</div>
+        </div>
+
+        <!-- Squirtle -->
+        <div class="pokemon-card">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png" alt="Squirtle">
+            <div class="pokemon-name">Squirtle</div>
+            <div class="pokemon-type">Tipo: Agua</div>
+        </div>
+
+        <!-- Pikachu -->
+        <div class="pokemon-card">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" alt="Pikachu">
+            <div class="pokemon-name">Pikachu</div>
+            <div class="pokemon-type">Tipo: Eléctrico</div>
+        </div>
+
+        <!-- Jigglypuff -->
+        <div class="pokemon-card">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png" alt="Jigglypuff">
+            <div class="pokemon-name">Jigglypuff</div>
+            <div class="pokemon-type">Tipo: Normal/Hada</div>
+        </div>
+    </div>
+</html>
+    git://github.com/LucarioTR/Octo_Path_XD.git
+    githubusercontent: LucarioTR
