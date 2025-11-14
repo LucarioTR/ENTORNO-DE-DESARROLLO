@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokédex Simple</title>
+    <title>Pokédex</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
+            font-family: 'Times New Roman', Times, serif,;
+            background-color: #f2ebf4;
             text-align: center;
         }
 
         h1 {
-            color: #ff0000;
+            color: #020b2c;
             margin-top: 20px;
         }
 
@@ -24,7 +24,7 @@
         }
 
         .pokemon-card {
-            background-color: white;
+            background-color: rgb(25, 251, 172);
             border: 2px solid #333;
             border-radius: 10px;
             width: 180px;
@@ -50,7 +50,7 @@
         }
 
         .pokemon-type {
-            color: #555;
+            color: #000;
         }
     </style>
 </head>
@@ -62,50 +62,56 @@
         <!-- Bulbasaur -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="Bulbasaur">
+            <div class="pokemon-number">#01</div>
             <div class="pokemon-name">Bulbasaur</div>
-            <div class="pokemon-type">Tipo: Planta/Veneno</div>
+            <div class="pokemon-type">Tipo: Planta-Veneno</div>
         </div>
 
          <!-- Ivysaur -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png" alt="Ivysaur">
+            <div class="pokemon-number">#02</b></div>
             <div class="pokemon-name">Ivysaur</div>
-            <div class="pokemon-type">Tipo: Planta/Veneno</div>
+            <div class="pokemon-type">Tipo: Planta-Veneno</div>
         </div>
 
          <!-- Venusaur -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png" alt="Venusaur">
+            <div class="pokemon-number">#03</div>
             <div class="pokemon-name">Venuasur</div>
-            <div class="pokemon-type">Tipo: Planta/Veneno</div>
+            <div class="pokemon-type">Tipo: Planta-Veneno</div>
         </div>
 
         <!-- Charmander -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png" alt="Charmander">
+            <div class="pokemon-number">#04</div>
             <div class="pokemon-name">Charmander</div>
             <div class="pokemon-type">Tipo: Fuego</div>
-
         </div>
 
         <!--Charmeleon-->
         <div class="pokemon-card">
-            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/srite/pokemon/5.png" alt="Charmeleon">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png" alt="Charmeleon">
+             <div class="pokemon-number">#05</div>
             <div class="pokemon-name">Charmeleon</div>
             <div class="pokemon-type">Tipo: Fuego</div>
         </div>
 
         <!--Charizard-->
          <div class="pokemon-card">
-            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/srite/pokemon/6.png" alt="Charizard">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png" alt="Charizard">
+             <div class="pokemon-number">#06</div>
             <div class="pokemon-name">Charizard</div>
-            <div class="pokemon-type">Tipo: Fuego/Volador</div>
+            <div class="pokemon-type">Tipo: Fuego-Volador</div>
         </div>
 
 
         <!-- Squirtle -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png" alt="Squirtle">
+             <div class="pokemon-number">#07</div>
             <div class="pokemon-name">Squirtle</div>
             <div class="pokemon-type">Tipo: Agua</div>
         </div>
@@ -113,6 +119,7 @@
          <!-- Wartortle -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png" alt="Wartortle">
+             <div class="pokemon-number">#08</div>
             <div class="pokemon-name">Wartortle</div>
             <div class="pokemon-type">Tipo: Agua</div>
         </div>
@@ -120,6 +127,7 @@
         <!--Blastoise-->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png" alt="Blastoise">
+             <div class="pokemon-number">#09</div>
             <div class="pokemon-name">Blastoise</div>
             <div class="pokemon-type">Tipo: Agua</div>
         </div>
@@ -127,6 +135,7 @@
          <!-- Caterpie -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/10.png" alt="Caterpie">
+             <div class="pokemon-number">#10</div>
             <div class="pokemon-name">Caterpie</div>
             <div class="pokemon-type">Tipo: Bicho</div>
         </div>
@@ -134,6 +143,7 @@
          <!-- Metapod -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/11.png" alt="Metapod">
+            <div class="pokemon-number">#11</div>
             <div class="pokemon-name">Metapod</div>
             <div class="pokemon-type">Tipo: Bicho</div>
         </div>
@@ -141,55 +151,63 @@
          <!-- Butterfree -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png" alt="Butterfree">
+            <div class="pokemon-number">#12</div>
             <div class="pokemon-name">Butterfree</div>
-            <div class="pokemon-type">Tipo: Bicho/Volador</div>
+            <div class="pokemon-type">Tipo: Bicho-Volador</div>
         </div>
 
          <!-- Weedle -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/13.png" alt="Weedle">
+            <div class="pokemon-number">#13</div>
             <div class="pokemon-name">Weedle</div>
-            <div class="pokemon-type">Tipo: Bicho/Veneno</div>
+            <div class="pokemon-type">Tipo: Bicho-Veneno</div>
         </div>
 
          <!-- Kakuna -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/14.png" alt="Kakuna">
+             <div class="pokemon-number">#14</div>
             <div class="pokemon-name">Kakuna</div>
-            <div class="pokemon-type">Tipo: Bicho/Veneno</div>
+            <div class="pokemon-type">Tipo: Bicho-Veneno</div>
         </div>
 
          <!-- Beedrill -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/15.png" alt="Beedrill">
+             <div class="pokemon-number">#15</div>
             <div class="pokemon-name">Beedrill</div>
-            <div class="pokemon-type">Tipo: Bicho/Veneno</div>
+            <div class="pokemon-type">Tipo: Bicho-Veneno</div>
         </div>
 
          <!-- Pidgey -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/16.png" alt="Pidgey">
+             <div class="pokemon-number">#16</div>
             <div class="pokemon-name">Pidgey</div>
-            <div class="pokemon-type">Tipo: Normal/Volador</div>
+            <div class="pokemon-type">Tipo: Normal-Volador</div>
         </div>
 
          <!-- Pidgeotto -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/17.png" alt="Pidgeotto">
+             <div class="pokemon-number">#17</div>
             <div class="pokemon-name">Pidgeotto</div>
-            <div class="pokemon-type">Tipo: Normal/Volador</div>
+            <div class="pokemon-type">Tipo: Normal-Volador</div>
         </div>
 
          <!-- Pidgeot -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png" alt="Pidgeot">
+             <div class="pokemon-number">#18</div>
             <div class="pokemon-name">Pidgeot</div>
-            <div class="pokemon-type">Tipo: Normal/Volador</div>
+            <div class="pokemon-type">Tipo: Normal-Volador</div>
         </div>
 
          <!-- Rattata -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/19.png" alt="Rattata">
+             <div class="pokemon-number">#19</div>
             <div class="pokemon-name">Rattata</div>
             <div class="pokemon-type">Tipo: Normal</div>
         </div>
@@ -197,6 +215,7 @@
          <!-- Raticate -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/20.png" alt="Raticate">
+             <div class="pokemon-number">#20</div>
             <div class="pokemon-name">Raticate</div>
             <div class="pokemon-type">Tipo: Normal</div>
         </div>
@@ -204,20 +223,23 @@
          <!-- Spearow -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/21.png" alt="Spearow">
+            <div class="pokemon-number">#21</div>
             <div class="pokemon-name">Spearow</div>
-            <div class="pokemon-type">Tipo: Normal/Volador</div>
+            <div class="pokemon-type">Tipo: Normal-Volador</div>
         </div>
 
          <!-- Fearow -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/22.png" alt="Fearow">
+            <div class="pokemon-number">#22</div>
             <div class="pokemon-name">Fearow</div>
-            <div class="pokemon-type">Tipo: Normal/Volador</div>
+            <div class="pokemon-type">Tipo: Normal-Volador</div>
         </div>
 
          <!-- Ekans -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/23.png" alt="Ekans">
+            <div class="pokemon-number">#23</div>
             <div class="pokemon-name">Ekans</div>
             <div class="pokemon-type">Tipo: Veneno</div>
         </div>
@@ -225,6 +247,7 @@
          <!-- Arbok -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/24.png" alt="Arbok">
+            <div class="pokemon-number">#24</div>
             <div class="pokemon-name">Arbok</div>
             <div class="pokemon-type">Tipo: Veneno</div>
         </div>
@@ -232,6 +255,7 @@
         <!-- Pikachu -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" alt="Pikachu">
+            <div class="pokemon-number">#25</div>
             <div class="pokemon-name">Pikachu</div>
             <div class="pokemon-type">Tipo: Eléctrico</div>
         </div>
@@ -239,6 +263,7 @@
          <!-- Raichu -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/26.png" alt="Raichu">
+            <div class="pokemon-number">#26</div>
             <div class="pokemon-name">Raichu</div>
             <div class="pokemon-type">Tipo: Eléctirco</div>
         </div>
@@ -246,6 +271,7 @@
          <!-- Sandshrew -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/27.png" alt="Sandshrew">
+            <div class="pokemon-number">#27</div>
             <div class="pokemon-name">Sandshrew</div>
             <div class="pokemon-type">Tipo: Tierra</div>
         </div>
@@ -253,6 +279,7 @@
          <!-- Sandslash -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/28.png" alt="Sandslash">
+            <div class="pokemon-number">#28</div>
             <div class="pokemon-name">Sandslash</div>
             <div class="pokemon-type">Tipo: Tierra</div>
         </div>
@@ -260,6 +287,7 @@
          <!-- Nidoran Hembra -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/29.png" alt="Nidoran Hembra">
+            <div class="pokemon-number">#29</div>
             <div class="pokemon-name">Nidoran Hembra</div>
             <div class="pokemon-type">Tipo: Veneno</div>
         </div>
@@ -267,6 +295,7 @@
          <!-- Nidorina -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/30.png" alt="Nidorina">
+            <div class="pokemon-number">#30</div>
             <div class="pokemon-name">Nidorina</div>
             <div class="pokemon-type">Tipo: Veneno</div>
         </div>
@@ -274,13 +303,15 @@
          <!-- Nidoqueen -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png" alt="Nidoqueen">
+             <div class="pokemon-number">#31</div>
             <div class="pokemon-name">Nidoqueen</div>
-            <div class="pokemon-type">Tipo: Tierra/Veneno</div>
+            <div class="pokemon-type">Tipo: Tierra-Veneno</div>
         </div>
 
          <!-- Nidoran Macho -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/32.png" alt="Nidoran Macho">
+             <div class="pokemon-number">#32</div>
             <div class="pokemon-name">Nidoran Macho</div>
             <div class="pokemon-type">Tipo: Veneno</div>
         </div>
@@ -288,6 +319,7 @@
          <!-- Nidorino -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/33.png" alt="Nidorino">
+             <div class="pokemon-number">#33</div>
             <div class="pokemon-name">Nidorino</div>
             <div class="pokemon-type">Tipo: Veneno</div>
         </div>
@@ -295,27 +327,31 @@
          <!-- Nidoking -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png" alt="Nidoking">
+             <div class="pokemon-number">#34</div>
             <div class="pokemon-name">Nidoking</div>
-            <div class="pokemon-type">Tipo: Tierra/Veneno</div>
+            <div class="pokemon-type">Tipo: Tierra-Veneno</div>
         </div>
 
          <!-- Clefairy -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png" alt="Clefairy">
+             <div class="pokemon-number">#35</div>
             <div class="pokemon-name">Clefairy</div>
-            <div class="pokemon-type">Tipo: Normal/Hada</div>
+            <div class="pokemon-type">Tipo: Normal-Hada</div>
         </div>
 
          <!-- Clefable -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/36.png" alt="Clefable">
+             <div class="pokemon-number">#36</div>
             <div class="pokemon-name">Clefable</div>
-            <div class="pokemon-type">Tipo: Normal/Hada</div>
+            <div class="pokemon-type">Tipo: Normal-Hada</div>
         </div>
 
          <!-- Vulpix -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png" alt="Vulpix">
+             <div class="pokemon-number">#37</div>
             <div class="pokemon-name">Vulpix</div>
             <div class="pokemon-type">Tipo: Fuego</div>
         </div>
@@ -323,6 +359,7 @@
          <!-- Ninetales -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png" alt="Ninetales">
+             <div class="pokemon-number">#38</div>
             <div class="pokemon-name">Ninetales</div>
             <div class="pokemon-type">Tipo: Fuego</div>
         </div>
@@ -330,82 +367,94 @@
         <!-- Jigglypuff -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/39.png" alt="Jigglypuff">
+             <div class="pokemon-number">#39</div>
             <div class="pokemon-name">Jigglypuff</div>
-            <div class="pokemon-type">Tipo: Normal/Hada</div>
+            <div class="pokemon-type">Tipo: Normal-Hada</div>
         </div>
 
          <!-- Wigglytuff -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/40.png" alt="Wigglytuff">
+             <div class="pokemon-number">#40</div>
             <div class="pokemon-name">Wigglytuff</div>
-            <div class="pokemon-type">Tipo: Normal/Hada</div>
+            <div class="pokemon-type">Tipo: Normal-Hada</div>
         </div>
 
          <!-- Zubat -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/41.png" alt="Zubat">
+             <div class="pokemon-number">#41</div>
             <div class="pokemon-name">Zubat</div>
-            <div class="pokemon-type">Tipo: Veneno/Volador</div>
+            <div class="pokemon-type">Tipo: Veneno-Volador</div>
         </div>
 
          <!-- Golbat -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/42.png" alt="Golbat">
+             <div class="pokemon-number">#42</div>
             <div class="pokemon-name">Golbat</div>
-            <div class="pokemon-type">Tipo: Veneno/Volador</div>
+            <div class="pokemon-type">Tipo: Veneno-Volador</div>
         </div>
 
          <!-- Oddish -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/43.png" alt="Oddish">
+             <div class="pokemon-number">#43</div>
             <div class="pokemon-name">Oddish</div>
-            <div class="pokemon-type">Tipo: Planta/Veneno</div>
+            <div class="pokemon-type">Tipo: Planta-Veneno</div>
         </div>
 
          <!-- Gloom -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png" alt="Gloom">
+             <div class="pokemon-number">#44</div>
             <div class="pokemon-name">Gloom</div>
-            <div class="pokemon-type">Tipo: Planta/Veneno</div>
+            <div class="pokemon-type">Tipo: Planta-Veneno</div>
         </div>
 
          <!-- Vileplume -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png" alt="Vileplume">
+             <div class="pokemon-number">#45</div>
             <div class="pokemon-name">Vileplume</div>
-            <div class="pokemon-type">Tipo: Planta/Veneno</div>
+            <div class="pokemon-type">Tipo: Planta-Veneno</div>
         </div>
          <!-- Paras -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/46.png" alt="Paras">
+             <div class="pokemon-number">#46</div>
             <div class="pokemon-name">Paras</div>
-            <div class="pokemon-type">Tipo: Bicho/Planta</div>
+            <div class="pokemon-type">Tipo: Bicho-Planta</div>
         </div>
 
          <!-- Parasect -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png" alt="Parasect">
+             <div class="pokemon-number">#47</div>
             <div class="pokemon-name">Parasect</div>
-            <div class="pokemon-type">Tipo: Bicho/Planta</div>
+            <div class="pokemon-type">Tipo: Bicho-Planta</div>
         </div>
 
          <!-- Venonat -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/48.png" alt="Venonat">
+             <div class="pokemon-number">#48</div>
             <div class="pokemon-name">Venonat</div>
-            <div class="pokemon-type">Tipo: Bicho/Veneno</div>
+            <div class="pokemon-type">Tipo: Bicho-Veneno</div>
         </div>
 
          <!-- Venomoth -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png" alt="Venomoth">
+             <div class="pokemon-number">#49</div>
             <div class="pokemon-name">Venomoth</div>
-            <div class="pokemon-type">Tipo: Bicho/Veneno</div>
+            <div class="pokemon-type">Tipo: Bicho-Veneno</div>
         </div>
 
          <!-- Diglett -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/50.png" alt="Diglett">
+             <div class="pokemon-number">#50</div>
             <div class="pokemon-name">Diglett</div>
             <div class="pokemon-type">Tipo: Tierra</div>
         </div>
@@ -413,6 +462,7 @@
          <!-- Dugtrio -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/51.png" alt="Dugtrio">
+            <div class="pokemon-number">#51</div>
             <div class="pokemon-name">Dugtrio</div>
             <div class="pokemon-type">Tipo: Tierra</div>
         </div>
@@ -420,6 +470,7 @@
          <!-- Meowth -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/52.png" alt="Meowth">
+            <div class="pokemon-number">#52</div>
             <div class="pokemon-name">Meowth</div>
             <div class="pokemon-type">Tipo: Normal</div>
         </div>
@@ -427,6 +478,7 @@
          <!-- Persian -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png" alt="Persian">
+            <div class="pokemon-number">#53</div>
             <div class="pokemon-name">Persian</div>
             <div class="pokemon-type">Tipo: Normal</div>
         </div>
@@ -434,6 +486,7 @@
          <!-- Psyduck -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png" alt="Psyduck">
+            <div class="pokemon-number">#54</div>
             <div class="pokemon-name">Psyduck</div>
             <div class="pokemon-type">Tipo: Agua</div>
         </div>
@@ -442,6 +495,7 @@
          <!-- Golduck -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png" alt="Golduck">
+            <div class="pokemon-number">#55</div>
             <div class="pokemon-name">Golduck</div>
             <div class="pokemon-type">Tipo: Agua</div>
         </div>
@@ -449,6 +503,7 @@
          <!-- Mankey -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/56.png" alt="Mankey">
+            <div class="pokemon-number">#56</div>
             <div class="pokemon-name">Mankey</div>
             <div class="pokemon-type">Tipo: Lucha</div>
         </div>
@@ -456,6 +511,7 @@
          <!-- Primeape -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png" alt="Primeape">
+            <div class="pokemon-number">#57</div>
             <div class="pokemon-name">Primeape</div>
             <div class="pokemon-type">Tipo: Lucha</div>
         </div>
@@ -463,6 +519,7 @@
          <!-- Growlithe -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/58.png" alt="Growlithe">
+            <div class="pokemon-number">#58</div>
             <div class="pokemon-name">Growlithe</div>
             <div class="pokemon-type">Tipo: Fuego</div>
         </div>
@@ -470,6 +527,7 @@
          <!-- Arcanine -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/59.png" alt="Arcanine">
+            <div class="pokemon-number">#59</div>
             <div class="pokemon-name">Arcanine</div>
             <div class="pokemon-type">Tipo: Fuego</div>
         </div>
@@ -477,6 +535,7 @@
          <!-- Poliwag -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/60.png" alt="Poliwag">
+            <div class="pokemon-number">#60</div>
             <div class="pokemon-name">Poliwag</div>
             <div class="pokemon-type">Tipo: Agua</div>
         </div>
@@ -484,6 +543,7 @@
          <!-- Poliwhirl -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/61.png" alt="Poliwhirl">
+             <div class="pokemon-number">#61</div>
             <div class="pokemon-name">Poliwhirl</div>
             <div class="pokemon-type">Tipo: Agua</div>
         </div>
@@ -491,13 +551,15 @@
          <!-- Poliwrath -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/62.png" alt="Poliwrath">
+             <div class="pokemon-number">#62</div>
             <div class="pokemon-name">Poliwrath</div>
-            <div class="pokemon-type">Tipo: Agua/Lucha</div>
+            <div class="pokemon-type">Tipo: Agua-Lucha</div>
         </div>
 
          <!-- Abra -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/63.png" alt="Abra">
+             <div class="pokemon-number">#63</div>
             <div class="pokemon-name">Abra</div>
             <div class="pokemon-type">Tipo: Psíquico</div>
         </div>
@@ -505,6 +567,7 @@
          <!-- Kadabra -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/64.png" alt="Kadabra">
+             <div class="pokemon-number">#64</div>
             <div class="pokemon-name">Kadabra</div>
             <div class="pokemon-type">Tipo: Psíquico</div>
         </div>
@@ -512,6 +575,7 @@
          <!-- Alakazam -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/65.png" alt="Alakazam">
+             <div class="pokemon-number">#65</div>
             <div class="pokemon-name">Alakazam</div>
             <div class="pokemon-type">Tipo: Psíquico</div>
         </div>
@@ -519,6 +583,7 @@
          <!-- Machop -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/66.png" alt="Machop">
+             <div class="pokemon-number">#66</div>
             <div class="pokemon-name">Machop</div>
             <div class="pokemon-type">Tipo: Lucha</div>
         </div>
@@ -526,6 +591,7 @@
          <!-- Machoke -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/67.png" alt="Machoke">
+             <div class="pokemon-number">#67</div>
             <div class="pokemon-name">Machoke</div>
             <div class="pokemon-type">Tipo: Lucha</div>
         </div>
@@ -533,6 +599,7 @@
          <!-- Machamp -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/68.png" alt="Machamp">
+             <div class="pokemon-number">#68</div>
             <div class="pokemon-name">Machamp</div>
             <div class="pokemon-type">Tipo: Lucha</div>
         </div>
@@ -540,62 +607,71 @@
          <!-- Bellsprout -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/69.png" alt="Bellsprout">
+             <div class="pokemon-number">#69</div>
             <div class="pokemon-name">Bellsprout</div>
-            <div class="pokemon-type">Tipo: Planta/Veneno</div>
+            <div class="pokemon-type">Tipo: Planta-Veneno</div>
         </div>
 
          <!-- Weepinbell -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/70.png" alt="Weepinbell">
+             <div class="pokemon-number">#70</div>
             <div class="pokemon-name">Weepinbell</div>
-            <div class="pokemon-type">Tipo: Planta/Veneno</div>
+            <div class="pokemon-type">Tipo: Planta-Veneno</div>
         </div>
 
          <!-- Victreebel -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/71.png" alt="Victreebel">
+            <div class="pokemon-number">#71</div>
             <div class="pokemon-name">Victreebel</div>
-            <div class="pokemon-type">Tipo: Planta/Veneno</div>
+            <div class="pokemon-type">Tipo: Planta-Veneno</div>
         </div>
 
          <!-- Tentacool -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/72.png" alt="Tentacool">
+            <div class="pokemon-number">#72</div>
             <div class="pokemon-name">Tentacool</div>
-            <div class="pokemon-type">Tipo: Agua/Veneno</div>
+            <div class="pokemon-type">Tipo: Agua-Veneno</div>
         </div>
 
          <!-- Tentacruel -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/73.png" alt="Tentacruel">
+            <div class="pokemon-number">#73</div>
             <div class="pokemon-name">Tentacruel</div>
-            <div class="pokemon-type">Tipo: Agua/Veneno</div>
+            <div class="pokemon-type">Tipo: Agua-Veneno</div>
         </div>
 
          <!-- Geodude -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/74.png" alt="Geodude">
+            <div class="pokemon-number">#74</div>
             <div class="pokemon-name">Geodude</div>
-            <div class="pokemon-type">Tipo: Roca/Tierra</div>
+            <div class="pokemon-type">Tipo: Roca-Tierra</div>
         </div>
 
          <!-- Graveler -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/75.png" alt="Graveler">
+            <div class="pokemon-number">#75</div>
             <div class="pokemon-name">Graveler</div>
-            <div class="pokemon-type">Tipo: Roca/Tierra</div>
+            <div class="pokemon-type">Tipo: Roca-Tierra</div>
         </div>
 
          <!-- Golem -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/76.png" alt="Golem">
+            <div class="pokemon-number">#76</div>
             <div class="pokemon-name">Golem</div>
-            <div class="pokemon-type">Tipo: Roca/Tierra</div>
+            <div class="pokemon-type">Tipo: Roca-Tierra</div>
         </div>
 
          <!-- Ponyta -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/77.png" alt="Ponyta">
+            <div class="pokemon-number">#77</div>
             <div class="pokemon-name">Ponyta</div>
             <div class="pokemon-type">Tipo: Fuego</div>
         </div>
@@ -603,6 +679,7 @@
          <!-- Rapidash -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png" alt="Rapidash">
+            <div class="pokemon-number">#78</div>
             <div class="pokemon-name">Rapidash</div>
             <div class="pokemon-type">Tipo: Fuego</div>
         </div>
@@ -610,182 +687,207 @@
          <!-- Slowpoke -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/79.png" alt="Slowpoke">
+            <div class="pokemon-number">#79</div>
             <div class="pokemon-name">Slowpoke</div>
-            <div class="pokemon-type">Tipo: Agua/Psíquico</div>
+            <div class="pokemon-type">Tipo: Agua-Psíquico</div>
         </div>
 
          <!-- Slowbro -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/80.png" alt="Slowbro">
+            <div class="pokemon-number">#80</div>
             <div class="pokemon-name">Slowbro</div>
-            <div class="pokemon-type">Tipo: Agua/Psíquico</div>
+            <div class="pokemon-type">Tipo: Agua-Psíquico</div>
         </div>
 
          <!-- Magnemite -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/81.png" alt="Magnemite">
+            <div class="pokemon-number">#81</div>
             <div class="pokemon-name">Magnemite</div>
-            <div class="pokemon-type">Tipo: Eléctrico/Acero</div>
+            <div class="pokemon-type">Tipo: Eléctrico-Acero</div>
         </div>
 
          <!-- Magneton -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/82.png" alt="Magneton">
+            <div class="pokemon-number">#82</div>
             <div class="pokemon-name">Magneton</div>
-            <div class="pokemon-type">Tipo: Eléctrico/Acero</div>
+            <div class="pokemon-type">Tipo: Eléctrico-Acero</div>
         </div>
-    </div>
 
-     <!-- Farfetch'd -->
+        <!-- Farfetch'd -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/83.png" alt="Farfetch'd">
+            <div class="pokemon-number">#83</div>
             <div class="pokemon-name">Farfetch'd</div>
-            <div class="pokemon-type">Tipo: Normal/Volador</div>
+            <div class="pokemon-type">Tipo: Normal-Volador</div>
         </div>
 
-         <!-- Doduo -->
+        <!-- Doduo -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/84.png" alt="Doduo">
+            <div class="pokemon-number">#84</div>
             <div class="pokemon-name">Doduo</div>
-            <div class="pokemon-type">Tipo: Normal/Volador</div>
+            <div class="pokemon-type">Tipo: Normal-Volador</div>
         </div>
 
-         <!-- Dodrio -->
+        <!-- Dodrio -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/85.png" alt="Dodrio">
+            <div class="pokemon-number">#85</div>
             <div class="pokemon-name">Dodrio</div>
-            <div class="pokemon-type">Tipo: Normal/Volador</div>
+            <div class="pokemon-type">Tipo: Normal-Volador</div>
         </div>
 
-         <!-- Seel -->
+        <!-- Seel -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/86.png" alt="Seel">
+            <div class="pokemon-number">#86</div>
             <div class="pokemon-name">Seel</div>
             <div class="pokemon-type">Tipo: Agua</div>
         </div>
 
-         <!-- Dewgong -->
+        <!-- Dewgong -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png" alt="Dewgong">
+            <div class="pokemon-number">#87</div>
             <div class="pokemon-name">Dewgong</div>
-            <div class="pokemon-type">Tipo: Agua/Hielo</div>
+            <div class="pokemon-type">Tipo: Agua-Hielo</div>
         </div>
 
-         <!-- Grimer -->
+        <!-- Grimer -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/88.png" alt="Grimer">
+            <div class="pokemon-number">#88</div>
             <div class="pokemon-name">Grimer</div>
             <div class="pokemon-type">Tipo: Veneno</div>
         </div>
 
-         <!-- Muk -->
+        <!-- Muk -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png" alt="Muk">
+            <div class="pokemon-number">#89</div>
             <div class="pokemon-name">Muk</div>
             <div class="pokemon-type">Tipo: Veneno</div>
         </div>
 
-         <!-- Shellder -->
+        <!-- Shellder -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/90.png" alt="Shellder">
+            <div class="pokemon-number">#90</div>
             <div class="pokemon-name">Shellder</div>
             <div class="pokemon-type">Tipo: Agua</div>
         </div>
 
-         <!-- Cloyster -->
+        <!-- Cloyster -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/91.png" alt="Cloyster">
+            <div class="pokemon-number">#91</div>
             <div class="pokemon-name">Cloyster</div>
-            <div class="pokemon-type">Tipo: Agua/Hielo</div>
+            <div class="pokemon-type">Tipo: Agua-Hielo</div>
         </div>
 
-         <!-- Gastly -->
+        <!-- Gastly -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/92.png" alt="Gastly">
+            <div class="pokemon-number">#92</div>
             <div class="pokemon-name">Gastly</div>
-            <div class="pokemon-type">Tipo: Fantasma/Veneno</div>
+            <div class="pokemon-type">Tipo: Fantasma-Veneno</div>
         </div>
 
-         <!-- Haunter -->
+        <!-- Haunter -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/93.png" alt="Haunter">
+            <div class="pokemon-number">#93</div>
             <div class="pokemon-name">Haunter</div>
-            <div class="pokemon-type">Tipo: Fantasma/Veneno</div>
+            <div class="pokemon-type">Tipo: Fantasma-Veneno</div>
         </div>
 
-         <!-- Gengar -->
+        <!-- Gengar -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png" alt="Gengar">
+            <div class="pokemon-number">#94</div>
             <div class="pokemon-name">Gengar</div>
-            <div class="pokemon-type">Tipo: Fantasma/Veneno</div>
+            <div class="pokemon-type">Tipo: Fantasma-Veneno</div>
         </div>
 
-         <!-- Onix -->
+        <!-- Onix -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/95.png" alt="Onix">
+            <div class="pokemon-number">#95</div>
             <div class="pokemon-name">Onix</div>
-            <div class="pokemon-type">Tipo: Roca/Tierra</div>
+            <div class="pokemon-type">Tipo: Roca-Tierra</div>
         </div>
 
-         <!-- Drowzee -->
+        <!-- Drowzee -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/96.png" alt="Drowzee">
+            <div class="pokemon-number">#96</div>
             <div class="pokemon-name">Drowzee</div>
             <div class="pokemon-type">Tipo: Psíquico</div>
         </div>
 
-         <!-- Hypno -->
+        <!-- Hypno -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/97.png" alt="Hypno">
+            <div class="pokemon-number">#97</div>
             <div class="pokemon-name">Hypno</div>
             <div class="pokemon-type">Tipo: Psíquico</div>
         </div>
 
-         <!-- Krabby -->
+        <!-- Krabby -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/98.png" alt="Krabby">
+            <div class="pokemon-number">#98</div>
             <div class="pokemon-name">Krabby</div>
             <div class="pokemon-type">Tipo: Agua</div>
         </div>
 
-         <!-- Kingler -->
+        <!-- Kingler -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/99.png" alt="Kingler">
+            <div class="pokemon-number">#99</div>
             <div class="pokemon-name">Kingler</div>
             <div class="pokemon-type">Tipo: Agua</div>
         </div>
 
-         <!-- Voltorb -->
+        <!-- Voltorb -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/100.png" alt="Voltorb">
+            <div class="pokemon-number">#100</div>
             <div class="pokemon-name">Voltorb</div>
             <div class="pokemon-type">Tipo: Eléctrico</div>
         </div>
 
-         <!-- Electrode -->
+        <!-- Electrode -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/101.png" alt="Electrode">
+            <div class="pokemon-number">#101</div>
             <div class="pokemon-name">Electrode</div>
             <div class="pokemon-type">Tipo: Eléctrico</div>
         </div>
 
-         <!-- Exeggcute -->
+        <!-- Exeggcute -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/102.png" alt="Exeggcute">
+            <div class="pokemon-number">#102</div>
             <div class="pokemon-name">Exeggcute</div>
-            <div class="pokemon-type">Tipo: Planta/Psíquico</div>
+            <div class="pokemon-type">Tipo: Planta-Psíquico</div>
         </div>
 
-         <!-- Exeggutor -->
+        <!-- Exeggutor -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/103.png" alt="Exeggutor">
+            <div class="pokemon-number">#103</div>
             <div class="pokemon-name">Exeggutor</div>
-            <div class="pokemon-type">Tipo: Planta/Psíquico</div>
+            <div class="pokemon-type">Tipo: Planta-Psíquico</div>
         </div>
 
         <!-- Cubone -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/104.png" alt="Cubone">
+            <div class="pokemon-number">#104</div>
             <div class="pokemon-name">Cubone</div>
             <div class="pokemon-type">Tipo: Tierra</div>
         </div>
@@ -793,6 +895,7 @@
         <!-- Marowak -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/105.png" alt="Marowak">
+            <div class="pokemon-number">#105</div>
             <div class="pokemon-name">Marowak</div>
             <div class="pokemon-type">Tipo: Tierra</div>
         </div>
@@ -800,6 +903,7 @@
         <!-- Hitmonlee -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/106.png" alt="Hitmonlee">
+            <div class="pokemon-number">#106</div>
             <div class="pokemon-name">Hitmonlee</div>
             <div class="pokemon-type">Tipo: Lucha</div>
         </div>
@@ -807,6 +911,7 @@
         <!-- Hitmonchan -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/107.png" alt="Hitmonchan">
+            <div class="pokemon-number">#107</div>
             <div class="pokemon-name">Hitmonchan</div>
             <div class="pokemon-type">Tipo: Lucha</div>
         </div>
@@ -814,6 +919,7 @@
         <!-- Lickitung -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/108.png" alt="Lickitung">
+            <div class="pokemon-number">#108</div>
             <div class="pokemon-name">Lickitung</div>
             <div class="pokemon-type">Tipo: Normal</div>
         </div>
@@ -821,6 +927,7 @@
         <!-- Koffing -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/109.png" alt="Koffing">
+            <div class="pokemon-number">#109</div>
             <div class="pokemon-name">Koffing</div>
             <div class="pokemon-type">Tipo: Veneno</div>
         </div>
@@ -828,6 +935,7 @@
         <!-- Weezing -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/110.png" alt="Weezing">
+            <div class="pokemon-number">#110</div>
             <div class="pokemon-name">Weezing</div>
             <div class="pokemon-type">Tipo: Veneno</div>
         </div>
@@ -835,20 +943,23 @@
         <!-- Rhyhorn -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/111.png" alt="Rhyhorn">
-            <div class="pokemon-name">Rhyhorn</div>
-            <div class="pokemon-type">Tipo: Roca/Tierra</div>
+            <div class="pokemon-number">#111</div>
+            <div class="pokemon-name">Magneton</div>
+            <div class="pokemon-type">Tipo: Roca-Tierra</div>
         </div>
 
         <!-- Rhydon -->
         <div class="pokemon-card">
-            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png" alt="Rhyhorn">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/112.png" alt="Rhydon">
+            <div class="pokemon-number">#112</div>
             <div class="pokemon-name">Rhydon</div>
-            <div class="pokemon-type">Tipo: Roca/Tierra</div>
+            <div class="pokemon-type">Tipo: Roca-Tierra</div>
         </div>
 
         <!-- Chansey -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/113.png" alt="Chansey">
+            <div class="pokemon-number">#113</div>
             <div class="pokemon-name">Chansey</div>
             <div class="pokemon-type">Tipo: Normal</div>
         </div>
@@ -856,6 +967,7 @@
         <!-- Tangela -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/114.png" alt="Tangela">
+            <div class="pokemon-number">#114</div>
             <div class="pokemon-name">Tangela</div>
             <div class="pokemon-type">Tipo: Planta</div>
         </div>
@@ -863,27 +975,31 @@
         <!-- Kangaskhan -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/115.png" alt="Kangaskhan">
+            <div class="pokemon-number">#115</div>
             <div class="pokemon-name">Kangaskhan</div>
             <div class="pokemon-type">Tipo: Normal</div>
         </div>
-
+        
         <!-- Horsea -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/116.png" alt="Horsea">
+            <div class="pokemon-number">#116</div>
             <div class="pokemon-name">Horsea</div>
             <div class="pokemon-type">Tipo: Agua</div>
         </div>
-
+        
         <!-- Seadra -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/117.png" alt="Seadra">
+            <div class="pokemon-number">#117</div>
             <div class="pokemon-name">Seadra</div>
             <div class="pokemon-type">Tipo: Agua</div>
         </div>
-
+        
         <!-- Goldeen -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/118.png" alt="Goldeen">
+            <div class="pokemon-number">#118</div>
             <div class="pokemon-name">Goldeen</div>
             <div class="pokemon-type">Tipo: Agua</div>
         </div>
@@ -891,6 +1007,7 @@
         <!-- Seaking -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/119.png" alt="Seaking">
+            <div class="pokemon-number">#119</div>
             <div class="pokemon-name">Seaking</div>
             <div class="pokemon-type">Tipo: Agua</div>
         </div>
@@ -898,41 +1015,47 @@
         <!-- Staryu -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/120.png" alt="Staryu">
+            <div class="pokemon-number">#120</div>
             <div class="pokemon-name">Staryu</div>
             <div class="pokemon-type">Tipo: Agua</div>
         </div>
-
+        
         <!-- Starmie -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/121.png" alt="Starmie">
+            <div class="pokemon-number">#121</div>
             <div class="pokemon-name">Starmie</div>
-            <div class="pokemon-type">Tipo: Agua/Psíquico</div>
+            <div class="pokemon-type">Tipo: Agua-Psíquico</div>
         </div>
 
         <!-- Mr.Mime -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/122.png" alt="Mr.Mime">
+            <div class="pokemon-number">#122</div>
             <div class="pokemon-name">Mr.Mime</div>
-            <div class="pokemon-type">Tipo: Psíquico/Hada</div>
+            <div class="pokemon-type">Tipo: Psíquico-Hada</div>
         </div>
 
         <!-- Scyther -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/123.png" alt="Scyther">
+            <div class="pokemon-number">#123</div>
             <div class="pokemon-name">Sycther</div>
-            <div class="pokemon-type">Tipo: Bicho/Volador</div>
+            <div class="pokemon-type">Tipo: Bicho-Volador</div>
         </div>
 
         <!-- Jynx -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/124.png" alt="Jynx">
+            <div class="pokemon-number">#124</div>
             <div class="pokemon-name">Jynx</div>
-            <div class="pokemon-type">Tipo: Hielo/Psíquico</div>
+            <div class="pokemon-type">Tipo: Hielo-Psíquico</div>
         </div>
 
         <!-- Electabuzz -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/125.png" alt="Electabuzz">
+            <div class="pokemon-number">#125</div>
             <div class="pokemon-name">Electabuzz</div>
             <div class="pokemon-type">Tipo: Eléctrico</div>
         </div>
@@ -940,6 +1063,7 @@
         <!-- Magmar -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/126.png" alt="Magmar">
+            <div class="pokemon-number">#126</div>
             <div class="pokemon-name">Magmar</div>
             <div class="pokemon-type">Tipo: Fuego</div>
         </div>
@@ -947,6 +1071,7 @@
         <!-- Pinsir -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/127.png" alt="Pinsir">
+            <div class="pokemon-number">#127</div>
             <div class="pokemon-name">Pinsir</div>
             <div class="pokemon-type">Tipo: Bicho</div>
         </div>
@@ -954,6 +1079,7 @@
         <!-- Tauros -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/128.png" alt="Tauros">
+            <div class="pokemon-number">#128</div>
             <div class="pokemon-name">Tauros</div>
             <div class="pokemon-type">Tipo: Normal</div>
         </div>
@@ -961,6 +1087,7 @@
         <!-- Magikarp -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png" alt="Magikarp">
+            <div class="pokemon-number">#129</div>
             <div class="pokemon-name">Magikarp</div>
             <div class="pokemon-type">Tipo: Agua</div>
         </div>
@@ -968,160 +1095,181 @@
         <!-- Gyarados -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png" alt="Gyarados">
+            <div class="pokemon-number">#130</div>
             <div class="pokemon-name">Gyarados</div>
-            <div class="pokemon-type">Tipo: Agua/Volador</div>
+            <div class="pokemon-type">Tipo: Agua-Volador</div>
         </div>
+
 
         <!-- Lapras -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/131.png" alt="Lapras">
+            <div class="pokemon-number">#131</div>
             <div class="pokemon-name">Lapras</div>
-            <div class="pokemon-type">Tipo: Agua/Hielo</div>
+            <div class="pokemon-type">Tipo: Agua-Hielo</div>
         </div>
 
-        <!-- Ditto -->
+         <!-- Ditto -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png" alt="Ditto">
+            <div class="pokemon-number">#132</div>
             <div class="pokemon-name">Ditto</div>
             <div class="pokemon-type">Tipo: Normal</div>
         </div>
 
-        <!-- Eevee -->
+         <!-- Eevee -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png" alt="Eevee">
+            <div class="pokemon-number">#133</div>
             <div class="pokemon-name">Eevee</div>
             <div class="pokemon-type">Tipo: Normal</div>
         </div>
 
-        <!-- Vaporeon -->
+         <!-- Vaporeon -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/134.png" alt="Vaporeon">
+            <div class="pokemon-number">#134</div>
             <div class="pokemon-name">Vaporeon</div>
             <div class="pokemon-type">Tipo: Agua</div>
         </div>
 
-        <!-- Jolteon -->
+         <!-- Jolteon -->
         <div class="pokemon-card">
-            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png" alt="Gyarados">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/135.png" alt="Jolteon">
+            <div class="pokemon-number">#135</div>
             <div class="pokemon-name">Jolteon</div>
             <div class="pokemon-type">Tipo: Eléctrico</div>
         </div>
 
-        <!-- Flareon -->
+         <!-- Flareon -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/136.png" alt="Flareon">
+            <div class="pokemon-number">#136</div>
             <div class="pokemon-name">Flareon</div>
             <div class="pokemon-type">Tipo: Fuego</div>
         </div>
 
-        <!-- Porygon -->
+         <!-- Porygon -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/137.png" alt="Porygon">
+            <div class="pokemon-number">#137</div>
             <div class="pokemon-name">Porygon</div>
             <div class="pokemon-type">Tipo: Normal</div>
         </div>
 
-        <!-- Omanyte -->
+         <!-- Omanyte -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/138.png" alt="Omanyte">
+            <div class="pokemon-number">#138</div>
             <div class="pokemon-name">Omanyte</div>
-            <div class="pokemon-type">Tipo: Roca/Agua</div>
+            <div class="pokemon-type">Tipo: Agua-Roca</div>
         </div>
 
-        <!-- Omastar -->
+         <!-- Omastar -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/139.png" alt="Omastar">
+            <div class="pokemon-number">#130</div>
             <div class="pokemon-name">Omastar</div>
-            <div class="pokemon-type">Tipo: Roca/Agua</div>
+            <div class="pokemon-type">Tipo: Agua-Roca</div>
         </div>
 
-        <!-- Kabuto -->
+         <!-- Kabuto -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/140.png" alt="Kabuto">
+            <div class="pokemon-number">#140</div>
             <div class="pokemon-name">Kabuto</div>
-            <div class="pokemon-type">Tipo: Roca/Agua</div>
+            <div class="pokemon-type">Tipo: Agua-Roca</div>
         </div>
 
-        <!-- Kabutops -->
+         <!-- Kabutops -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/141.png" alt="Kabutops">
+            <div class="pokemon-number">#141</div>
             <div class="pokemon-name">Kabutops</div>
-            <div class="pokemon-type">Tipo: Roca/Agua</div>
+            <div class="pokemon-type">Tipo: Agua-Roca</div>
         </div>
 
-        <!-- Aerodactyl -->
+         <!-- Aerodactyl -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/142.png" alt="Aerodactyl">
+            <div class="pokemon-number">#142</div>
             <div class="pokemon-name">Aerodactyl</div>
-            <div class="pokemon-type">Tipo: Roca/Volador</div>
+            <div class="pokemon-type">Tipo: Roca-Volador</div>
         </div>
 
-        <!-- Snorlax -->
+         <!-- Snorlax -->
         <div class="pokemon-card">
-            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png" alt="Snorlax">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/143.png" alt="snorlax">
+            <div class="pokemon-number">#143</div>
             <div class="pokemon-name">Snorlax</div>
-            <div class="pokemon-type">Tipo: Normal</div>
+            <div class="pokemon-type">Tipo: Normalr</div>
         </div>
 
-        <!-- Articuno -->
+         <!-- Articuno -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/144.png" alt="Articuno">
-            <div class="pokemon-name">Articuno</div>
-            <div class="pokemon-type">Tipo: Hielo/Volador</div>
+            <div class="pokemon-number">#144</div>
+            <div class="pokemon-name">Aricuno</div>
+            <div class="pokemon-type">Tipo: Hielo-Volador</div>
         </div>
-        
-        <!-- Zapdos -->
+
+         <!-- Zapdos -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/145.png" alt="Zapdos">
+            <div class="pokemon-number">#145</div>
             <div class="pokemon-name">Zapdos</div>
-            <div class="pokemon-type">Tipo: Eléctrico/Volador</div>
+            <div class="pokemon-type">Tipo: Eléctrico-Volador</div>
         </div>
 
-        <!-- Moltres -->
+         <!-- Moltres -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/146.png" alt="Moltres">
+            <div class="pokemon-number">#146</div>
             <div class="pokemon-name">Moltres</div>
-            <div class="pokemon-type">Tipo: Fuego/Volador</div>
+            <div class="pokemon-type">Tipo: Fuego-Volador</div>
         </div>
 
-
-        <!-- Dratini -->
+         <!-- Dratini -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/147.png" alt="Dratini">
+            <div class="pokemon-number">#147</div>
             <div class="pokemon-name">Dratini</div>
             <div class="pokemon-type">Tipo: Dragón</div>
         </div>
 
-        <!-- Dragonair -->
+         <!-- Dragonair -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/148.png" alt="Dragonair">
+            <div class="pokemon-number">#148</div>
             <div class="pokemon-name">Dragonair</div>
             <div class="pokemon-type">Tipo: Dragón</div>
         </div>
 
-
-        <!-- Dragonite -->
+         <!-- Dragonite -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png" alt="Dragonite">
+            <div class="pokemon-number">#149</div>
             <div class="pokemon-name">Dragonite</div>
-            <div class="pokemon-type">Tipo: Dragón/Volador</div>
+            <div class="pokemon-type">Tipo: Dragón-Volador</div>
         </div>
 
-
-        <!-- Mewtwo -->
+         <!-- Mewtwo -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/150.png" alt="Mewtwo">
+            <div class="pokemon-number">#150</div>
             <div class="pokemon-name">Mewtwo</div>
             <div class="pokemon-type">Tipo: Psíquico</div>
         </div>
 
-        <!-- Mew -->
+         <!-- Mew -->
         <div class="pokemon-card">
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/151.png" alt="Mew">
+            <div class="pokemon-number">#151</div>
             <div class="pokemon-name">Mew</div>
             <div class="pokemon-type">Tipo: Psíquico</div>
         </div>
 
+    </div>
 
 </html>
   
