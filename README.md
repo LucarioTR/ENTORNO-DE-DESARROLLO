@@ -11,4 +11,4 @@ de la Pokédex a parte del tipo y un sprite de este.
 4. **VISUAL STUDIO CODE**
 
 ## Cómo Descargar el código ##
-``` bash gitclone https://github.com/LucarioTR/Pokedex.git
+``` bash gitclone https://github.com/LucarioTR/d3614bd.git
