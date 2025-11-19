@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokedex</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+      padding: 20px;
+    }
+
+
+h1 {
+  color: #ff0000;
+  text-shadow: 2px 2px #000;
+}
+
+.pokedex {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 20px;
+}
+
+.pokemon-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.pokemon-card:hover {
+  transform: scale(1.05);
+}
+
+.pokemon-card img {
+  width: 100px;
+  height: 100px;
+}
+
+.pokemon-name {
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  text-transform: capitalize;
+}
+
+.pokemon-type {
+  display: inline-block;
+  padding: 3px 8px;
+  margin: 2px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 0.8rem;
+  text-transform: capitalize;
+}
+
+.type-fire { background-color: #F08030; }
+.type-water { background-color: #6890F0; }
+.type-grass { background-color: #78C850; }
+.type-electric { background-color: #F8D030; color: #000; }
+.type-ice { background-color: #98D8D8; color: #000; }
+.type-fighting { background-color: #C03028; }
+.type-poison { background-color: #A040A0; }
+.type-ground { background-color: #E0C068; color: #000; }
+.type-flying { background-color: #A890F0; }
+.type-psychic { background-color: #F85888; }
+.type-bug { background-color: #A8B820; }
+.type-rock { background-color: #B8A038; }
+.type-ghost { background-color: #705898; }
+.type-dragon { background-color: #7038F8; }
+.type-dark { background-color: #705848; }
+.type-steel { background-color: #B8B8D0; color: #000; }
+.type-fairy { background-color: #EE99AC; color: #000; }
+.type-normal { background-color: #A8A878; }
+
+
+  </style>
+</head>
+<body>
+
+  <h1>Pokédex</h1>
+  <div class="pokedex" id="pokedex"></div>
+
+  <script>
+    const pokedex = document.getElementById('pokedex');
+    const totalPokemons = 1025; // Número de Pokémon que quieres mostrar
+
+    const fetchPokemon = async (id) => {
+      const url = `https://pokeapi.co/api/v2/pokemon/${id}`;
+      const res = await fetch(url);
+      const data = await res.json();
+      createPokemonCard(data);
+    }
+
+    const createPokemonCard = (pokemon) => {
+      const pokemonEl = document.createElement('div');
+      pokemonEl.classList.add('pokemon-card');
+
+      const pokeTypes = pokemon.types.map(type => type.type.name);
+      const typeHTML = pokeTypes.map(type => `<span class="pokemon-type type-${type}">${type}</span>`).join('');
+
+      pokemonEl.innerHTML = `
+        <img src="${pokemon.sprites.front_default}" alt="${pokemon.name}">
+        <div class="pokemon-name">${pokemon.name}</div>
+        <div class="pokemon-type-container">${typeHTML}</div>
+      `;
+
+      pokedex.appendChild(pokemonEl);
+    }
+
+    const fetchPokemons = async () => {
+      for(let i = 1; i <= totalPokemons; i++) {
+        await fetchPokemon(i);
+      }
+    }
+
+    fetchPokemons();
+  </script>
+
+</body>
+</html>
