@@ -10,3 +10,8 @@ a parte del tipo y un sprite de este.
 2. CSS
 3. Git/GITHUB
 4. VISUAL STUDIO CODE
+
+## CLONA MI CÓDIGO ##
+
+```bash
+gitclone https://github.com/LucarioTR/ENTORNO-DE-DESARROLLO/blob/LucarioTR-Mondongo/POKEDEX
