@@ -5,7 +5,8 @@ En esta página encontrarás tanto el nombre de los 151 Pokémon añadidos en la
 a parte del tipo y un sprite de este.
 
 ## Tecnologías Usadas ##
-1.HTML5
-2.CSS
-3.Git/GITHUB
-4.VISUAL STUDIO CODE
+
+1. HTML5
+2. CSS
+3. Git/GITHUB
+4. VISUAL STUDIO CODE
